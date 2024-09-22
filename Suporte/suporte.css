@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-size: 15px;
+    text-align: center;
+}
+#email{
+    border: solid orange 2px;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    color: orange;
+}
+#email::placeholder{
+    color: orange;
+}
+#email:focus{
+    border-color: orange;
+}
+.email{
+    margin-top: 60px;
+    color: orange;
+    padding-bottom: 20px;
+}
+#mensagem{
+    text-align: start;
+    border: solid orange 2px;
+    resize: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    color: orange;
+}
+#mensagem::placeholder{
+    color: orange;
+}
+.mensagem{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: orange;
+    padding-bottom: 20px;
+}
+input:focus{
+    border: solid rgb(255, 136, 0) 2px;
+    outline: none
+}
+textarea:focus{
+    border: solid rgb(255, 136, 0) 2px;
+    outline: none
+}
+#env{
+    width: 280px;
+    height: 30px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+#env:active{
+    background-color: white;
+    border: solid rgb(255, 136, 0) 2px;
+    color: orange;
+}
+#back{
+    width: 280px;
+    height: 30px;
+    background-color: transparent;
+    color: orange;
+    border: solid rgb(255, 136, 0) 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px;
+}
+#back:active{
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
