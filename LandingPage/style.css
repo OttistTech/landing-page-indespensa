@@ -25,9 +25,9 @@
 /* COMEÇO DAS CONFIGURAÇÕES DO HEADER */
 header{
     display: flex;
-    color: white;
+    color: blue;
     background-color: #F59132;
-    width: 100%;
+    width: 1480px;
     height: 755px;
     a{
         font-family: "inter";
