@@ -236,20 +236,20 @@ header .topicos1, .topicos2{
 }
 
 
-.carrosel #setaEsquerda{
+.carrosel .setaEsquerda{
     position: absolute;
     margin-top: 160px;
     margin-left: 20px;
 }
 
-.carrosel #setaDireita{
+.carrosel .setaDireita{
     position: absolute;
     margin-top: 160px;
     right: -100px;
 }
 
 
-.carrosel #Bolinhas1{
+.carrosel .bolinhas{
     align-self: center;
     width: 117.67px;
     height: 23.86px;
@@ -257,8 +257,6 @@ header .topicos1, .topicos2{
     margin-left: 125px;
 
 }
-
-
 
 .carrosel img{
     position: absolute;
