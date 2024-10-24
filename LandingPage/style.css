@@ -336,7 +336,7 @@ header .topicos1, .topicos2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/Imagens/FotoEquipe.png);
+    background-image: url(Imagens/FotoEquipe.png);
     margin-top: 50px;
     width: 100%;
     height: 883px;

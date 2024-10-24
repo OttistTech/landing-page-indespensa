@@ -4,57 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Página de Erro</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="Imagens/LogoTriste.png">
+    <title>Erro</title>
   </head>
   <body>
-    <!-- Header -->
     <header>
-      <img src="Imagens/Logo.png" alt="logo"> 
-      <h1>InDespensa</h1>
+        <!-- colocar logo branca -->
+        <img src="Imagens/Logo.png" alt="logo"> 
+        <h1>InDespensa</h1>
     </header>
+    
+    <div class="container-error">
+      <img src="Imagens/LogoTriste.png" alt="error-logo">
+      <h1>Algo Deu Errado!</h1>
+      <p>Não se preocupe! estamos trabalhando duro para trazer o indispensável da sua cozinha de volta!</p>
+    </div>
+    <button id="btn-voltar"><h2>Voltar</h2><img src="Imagens/enviar.png" alt=""></button>
 
-    <!-- Error Message -->
-    <section class="error-section">
-      <div class="error-logo">
-        <img src="Imagens/LogoTriste.png " alt="">
-      </div>
-      <h2 class="error-title">Algo Deu Errado!</h2>
-      <p class="error-message">
-        Parece que houve um erro. Tente novamente mais tarde.
-      </p>
-      <button class="btnBack">
-        Voltar
-        <img src="" alt="">
-      </button>
-    </section>
+    <footer>
+    <div class="logo-container">
+        <img src="Imagens/LogoEscurinha.png" alt="InDespensa Logo" class="logo">
+        <span>InDespensa</span>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-logo">
-        <h2 class="footer-title">InDespensa</h2>
-      </div>
-      <div class="footer-links">
-        <a href="#">Sobre nós</a>
-        <a href="#">Funcionalidades</a>
-        <a href="#">Nossa História</a>
-        <a href="#">Nossas Redes</a>
-      </div>
-      <div class="footer-btns">
-        <button class="btnSupport">
-          Suporte
+    <div class="button-container">
+        <button class="footer-button">
+            <img src="Imagens/InternetPreto.png" alt="Site">
+            <a href="/LandingPage/landing.html"><strong>Site</strong></a>
         </button>
-        <button class="btnWebsite">
-          Site
-        </button>
-        <button class="btnRestricted">
-          Área Restrita
-        </button>
-      </div>
-    </footer>
-  </body>
+    </div>
+   </footer>
+</body>
 </html>
