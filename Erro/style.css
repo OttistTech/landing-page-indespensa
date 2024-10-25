@@ -152,7 +152,8 @@ footer{
   width: 172px;
   height: 58px;
   background-color: white;
-  border: none;
+  border: none;     
+  margin-top: 31px; 
   font-family: 'montserratP';
   font-size: 24px;
 }
@@ -170,6 +171,4 @@ footer{
 
 .footer-button strong{
   margin-left: 12px;
-}
-
-  
+}  
